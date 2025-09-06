@@ -43,6 +43,11 @@ section#login {
     border-radius: 20px;
     
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+
+    /* cria uma transição de tela pequena para grande e vice-versa */
+    transition: width .3s, height .3s;
+    /* muda a velocidade de transição */
+    transition-timing-function: ease;
     
 }
 
