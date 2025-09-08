@@ -23,11 +23,13 @@ Grandes Telas:      acima de 1200px
     }
     
     /* mudar a posição da imagem de login */
+    /* informação da imagem */
     section#login > div#imagem {
         float: left;
         width: 30%;
         height: 100%;
     }
+    /* informação do formulário */
     section#login > div#formulario {
         float: right;
         width: 70%;
@@ -38,21 +40,30 @@ Grandes Telas:      acima de 1200px
 @media screen and (min-width: 992px) {
     /* muda o fundo */
     body {
-        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+        background-image: linear-gradient(to top, #49a09d, #150a1d);
     }    
 
     section#login {
         width: 950px;
     }
-
+    /* informação de posição da imagem */
     section#login > div#imagem {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
-
+    /* informação de posição do formulário */
     section#login > div#formulario {
-        float: right;
+        float: left;
         width: 50%;
+    }
+
+    /* aumenta o tamanho da fonte */
+    /* em dispositivos grande */
+    div#formulario h1 {
+        font-size: 2.5em;
+    }
+    div#formulario > p {
+    font-size: 1.5em;    
     }
 }
