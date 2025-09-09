@@ -20,6 +20,7 @@ Grandes Telas:      acima de 1200px
     
     section#login {
         width: 80vw;
+        height: 280px;
     }
     
     /* mudar a posição da imagem de login */
@@ -45,7 +46,9 @@ Grandes Telas:      acima de 1200px
 
     section#login {
         width: 950px;
+        height: 350px;
     }
+
     /* informação de posição da imagem */
     section#login > div#imagem {
         float: right;
@@ -64,6 +67,7 @@ Grandes Telas:      acima de 1200px
         font-size: 2.5em;
     }
     div#formulario > p {
-    font-size: 1.5em;    
+        font-size: 1.3em;
+        margin: 20px 0px;    
     }
 }
