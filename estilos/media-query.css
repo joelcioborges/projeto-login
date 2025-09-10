@@ -20,7 +20,7 @@ Grandes Telas:      acima de 1200px
     
     section#login {
         width: 80vw;
-        height: 280px;
+        height: 325px;
     }
     
     /* mudar a posição da imagem de login */
@@ -29,6 +29,8 @@ Grandes Telas:      acima de 1200px
         float: left;
         width: 30%;
         height: 100%;
+        background: #5f2c82 url(../imagens/ponte.jpg) no-repeat;
+        background-size: cover;               
     }
     /* informação do formulário */
     section#login > div#formulario {
