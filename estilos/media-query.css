@@ -56,6 +56,7 @@ Grandes Telas:      acima de 1200px
         float: right;
         width: 50%;
         height: 100%;
+        background-position: -60px 0px;
     }
     /* informação de posição do formulário */
     section#login > div#formulario {
