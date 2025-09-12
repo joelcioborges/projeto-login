@@ -72,7 +72,7 @@ section#login > div#formulario {
 div#formulario > h1 {
     text-align: center;
     margin-bottom: 10px;
-    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.563);
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.563);
 }
 div#formulario > p {
     font-size: 0.8em;
