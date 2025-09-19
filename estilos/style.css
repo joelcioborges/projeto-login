@@ -76,7 +76,8 @@ div#formulario > h1 {
 }
 div#formulario > p {
     font-size: 0.8em;
-    text-indent: 15px;    
+    text-indent: 15px;
+    text-align: justify;    
 }
 div#formulario > img {
     display: block;
